@@ -1,3 +1,11 @@
 .item-add {
+  display: flex;
+  justify-content: space-between;
   margin-top: 10px;
+}
+
+.item-add .form-control {
+  width: auto;
+  flex-grow: 1;
+  margin-right: 3px;
 }
