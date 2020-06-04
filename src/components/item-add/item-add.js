@@ -4,8 +4,6 @@ import './item-add.css'
 
 export default class AddItem extends Component {
   render() {
-    const {onItemAdd} = this.props;
-
     return (
       <div className="item-add">
         <button 
